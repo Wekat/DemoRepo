@@ -6,7 +6,9 @@ namespace DemoRepo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Create an animal!");
+            Animal myAnimal01 = new Animal();
+            myAnimal01.name = "Tony the tiger";
         }
     }
 }
